@@ -5,14 +5,7 @@ class Home extends Component {
     // this.props.auth.login();
   }
 
-  render() {
-    const { isAuthenticated } = this.props.auth.loggedIn;
-    console.log('isAuthenticated --> ', isAuthenticated());
-    return (
-      <div className="container">
-        {
-          isAuthenticated() && (
-            <h4>
+  //hello this is  change
                 You are logged in!
             </h4>
           )
@@ -32,7 +25,7 @@ class Home extends Component {
           )
         }
       </div>
-    );    
+    );
   }
 }
 
